@@ -44,21 +44,41 @@ body{
 button{
   padding: 7px;
   background-color: darkred;
-  border: 4px groove burlywood;
   color: white;
   font-weight: bold;
   cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
  
 
 }
 
 input{
   padding: 7px;
-  border: 4px groove burlywood;
+  border-radius: 5px 0px 0px 5px;
 }
 
-ul li{
-  font-weight: bold;
+ul{
+  background-color: white;
+  display: flex;
+  color: black;
+  padding: 10px;
+  border-radius: 3px;
+  align-items: center;
+  gap: 20px;
+}
+
+ul li div{ 
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 3px;
   margin-bottom: 5px;
+
 }
 
+.online{
+  background-color: blue;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
