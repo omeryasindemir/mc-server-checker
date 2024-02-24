@@ -1,0 +1,10 @@
+hostname
+ip
+online
+players max 
+players online
+protocol name
+version
+
+
+https://api.mcsrvstat.us
